@@ -67,7 +67,7 @@ def plot(t):
     # n = [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000]
     newArr = []
     for i in range(len(n)):
-        arr = n[i]*np.log2(i) / 10**5.4
+        arr = n[i]*np.log2(n[i]) / 10**5.4
         # nsq.append(n[i] * n[i] * 10)
         # arr_nsq = n[i] * n[i]
         newArr.append(arr)
