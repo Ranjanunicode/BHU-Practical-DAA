@@ -108,6 +108,4 @@ if __name__ == '__main__':
         pt = (end - start)
         tval.append(pt)
         # print(pt)
-    # print(nval)
-    # print(tval)
     plot(nval, tval)
